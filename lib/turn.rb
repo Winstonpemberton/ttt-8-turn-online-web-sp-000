@@ -7,7 +7,7 @@ def turn(board)
     else
       turn(board)
   end
-  display_board
+  display_board(board)
 end
 
 def valid_move?(board,index)
